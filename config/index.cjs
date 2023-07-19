@@ -1,64 +1,64 @@
-/* eslint-disable */
+/*埃斯林特-残疾*/
 
-/**
- * 此项目配置为方便新人使用，已缩减至最简配置。
- * 如若想使用更多功能，请查考文档中的 【3. config参数说明】 
- * 自行添加属性，以支持更多个性化功能
+ /**
+ *The configuration of this project is convenient for newcomers and has been reduced to the simplest configuration.
+ *If you want to use more functions, please refer to [3 Config Parameter Description
+ *Add attributes by yourself to support more personalized functions
  */
-const USER_CONFIG = {
+ 常数用户配置= {
 
-  // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+ //Use WeChat test account: public account APP_ ID
+应用ID : “wx0a1f3fdf19935b30” ,
 
-  // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+ //Use WeChat test account: public account APP_ SECRET
+APP_SECRET应用程序 : “071f823be1bfff72a5064b14af2fa075” ,
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+省 : &#39;Gansu&#39; ,
+城市 : &#39;Lanzhou&#39; ,
 
-  USERS: [
-    {
-      // 想要发送的人的名字
-      name: '宝贝',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
-        },
-        {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
-        },
-      ],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
-      ],
-    },
-  ],
+用户 : [
+ {
+ //Name of the person you want to send
+名称 : &#39;Baby&#39; ,
+ //Use WeChat test number: scan the code to follow a string generated after your WeChat test number, which can be seen in the background of the test number
+身份证件 : “OzVuNg78eT-NeH7Let0FuEGoDnSHsx_iamJUMctOUk4” ,
+ //Use WeChat test number: the template ID of the template message you want to send to him
+ 使用模板ID :‘j1527557380’ ,
+ //The new calendar date is only used to obtain constellation fortune, and the format must be MM-DD
+ 星座日期 : &#39;&#39; ,
+节日 : [
+ //Note: The configured date of this item is the lunar date, because there is an * symbol before &#34;birthday&#34; in &#39;type&#39;
+ {
+类型 : &#39;Wife&#39; ,名称 : &#39;Baby&#39; ,年 : &#39;1999&#39; ,日期 : &#39;03-29&#39; ,
+ } ,
+ //Note: This configuration date is the Gregorian date, because there is no * symbol before &#34;birthday&#34; in &#39;type&#39;
+ {
+类型 : &#39;Husband&#39; ,名称 : &#39;Shen Mingkai&#39; ,年 : &#39;1999&#39; ,日期 : &#39;02-28&#39; ,
+ } ,
+ {
+类型 : &#39;618&#39; ,名称 : &#39;Love Memorial Day&#39; ,年 : &#39;2020&#39; ,日期 : &#39;06-18&#39; ,
+ } ,
+ ] ,
+ //We have been together for xxxx days
+自定义日期列表 : [
+ //Days together
+ {关键字 :&#39;爱情日&#39; ,日期 : &#39;2020-06-18&#39; } ,
+ //Wedding anniversary
+ {关键字 :&#39;结婚日&#39; ,日期 : &#39;2030-01-01&#39; } ,
+ ] ,
+ } ,
+ ] ,
 
 
-  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+ //[Push Completion Reminder] template ID, used to check whether you have successfully sent the template
+回调模板ID : &#39;&#39; ,
 
-  CALLBACK_USERS: [
-    {
-      name: '自己',
-      // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
-    }
+回拨用户 : [
+ {
+名称 : &#39;Own&#39; ,
+ //Use WeChat test number: your WeChat ID, scan the code to follow a string generated after your WeChat test number, which can be seen in the background of the test number
+身份证件 : &#39;&#39; ,
+ }
   ],
 
 }
