@@ -8,7 +8,7 @@
  常数用户配置= {
 
  //Use WeChat test account: public account APP_ ID
-应用ID : “wx0a1f3fdf19935b30” ,
+应用ID : “gh_c645f564ce85” ,
 
  //Use WeChat test account: public account APP_ SECRET
 APP_SECRET应用程序 : “071f823be1bfff72a5064b14af2fa075” ,
